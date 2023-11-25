@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <div class="background-image">
+    <!-- Icons -->
+    <div class="icons">
+      <i class="fas fa-info-circle" onclick="showPopup('info-popup')"></i>
+      <i class="fas fa-envelope" onclick="showPopup('email-popup')"></i>
+      <i class="fas fa-handshake" onclick="showPopup('email-popup')"></i>
+      <i class="fas fa-binoculars" onclick="showPopup('email-popup')"></i>
+      <i class="fas fa-crown" onclick="showPopup('email-popup')"></i>
+      <i class="fas fa-virus" onclick="showPopup('email-popup')"></i>
+
+
+
+
+    </div>
+
+    <!-- Popups -->
+    <div class="popup" id="info-popup">
+      <p>This is the information popup.</p>
+      <span class="close" onclick="closePopup('info-popup')">&times;</span>
+    </div>
+
+    <div class="popup" id="email-popup">
+      <p>This is the email popup.</p>
+      <span class="close" onclick="closePopup('email-popup')">&times;</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
