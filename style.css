@@ -4,7 +4,7 @@ body {
   }
   
   .background-image {
-    background-image: url('background.jpeg'); /* Replace 'your-background-image.jpg' with your actual image path */
+    background-image: url('Presentatie_Seederdeboer/Home/Avatar.png'); /* Replace 'your-background-image.jpg' with your actual image path */
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -14,16 +14,16 @@ body {
   .icons {
     position: absolute;
     top: 50%;
-    left: 10px;
+    left: 15px;
     transform: translateY(-50%);
     display: flex;
     flex-direction: column;
   }
   
   .icons i {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #fff;
+    font-size: 35px;
+    margin-bottom: 25px;
+    color: lightblue;
     cursor: pointer;
   }
   
@@ -37,6 +37,13 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .popup_img{
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
   }
   
   .popup p {

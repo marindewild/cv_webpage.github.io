@@ -10,13 +10,15 @@
 
   <div class="background-image">
     <!-- Icons -->
-    <div class="icons">
+    <div class="icons">   
       <i class="fas fa-info-circle" onclick="showPopup('info-popup')"></i>
-      <i class="fas fa-envelope" onclick="showPopup('email-popup')"></i>
-      <i class="fas fa-handshake" onclick="showPopup('email-popup')"></i>
-      <i class="fas fa-binoculars" onclick="showPopup('email-popup')"></i>
-      <i class="fas fa-crown" onclick="showPopup('email-popup')"></i>
+      <i class="fas fa-map-location-dot" onclick="showPopup('map-location-dot-popup')"></i>
+      <i class="fas fa-calendar-days" onclick="showPopup('calendar-days-popup')"></i>
+      <i class="fas fa-cart-shopping" onclick="showPopup('cart-shopping-popup')"></i>
+      <!-- <i class="fas fa-crown" onclick="showPopup('email-popup')"></i>
       <i class="fas fa-virus" onclick="showPopup('email-popup')"></i>
+      <i class="fas fa-graduation-cap" onclick="showPopup('email-popup')"></i> -->
+
 
 
 
@@ -29,11 +31,20 @@
       <span class="close" onclick="closePopup('info-popup')">&times;</span>
     </div>
 
-    <div class="popup" id="email-popup">
-      <p>This is the email popup.</p>
-      <span class="close" onclick="closePopup('email-popup')">&times;</span>
+    <div class="popup" id="map-location-dot-popup">
+      <img class="popup_img"  src="Presentatie_Seederdeboer/kaart.jpeg"></img>
+      <span class="close" onclick="closePopup('map-location-dot-popup')">&times;</span>
+    </div>
+    <div class="popup" id="calendar-days-popup">
+      <img class="popup_img" src="Presentatie_Seederdeboer/Agenda/Schermafbeelding 2023-11-25 om 18.10.09.png"></img>
+      <span class="close" onclick="closePopup('calendar-days-popup')">&times;</span>
+    </div>
+    <div class="popup" id="cart-shopping-popup">
+      <p>This is the information popup.</p>
+      <span class="close" onclick="closePopup('cart-shopping-popup')">&times;</span>
     </div>
   </div>
+  
 
   <script src="script.js"></script>
 </body>
