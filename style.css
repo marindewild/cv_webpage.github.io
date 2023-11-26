@@ -33,10 +33,99 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: #fff;
+    /* background: linear-gradient(to right, #f7f7f9 0%, #69b0d9 100%); */
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    /* background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%); */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 75%; 
+  }
+
+  .text{
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-shadow:
+    1px 1px 1px blue,
+    2px 2px 1px blue;
+    text-align: center;
+  }
+
+  .werk{
+    background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+    animation: gradient 2.5s infinite 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.2) forwards;
+  }
+
+  @keyframes gradient {
+    0% {
+        background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%)
+    }
+
+    10% {
+        background: linear-gradient(90deg, #d53369 0%, #daae51 100%)
+    }
+
+    20% {
+        background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%)
+    }
+
+    30% {
+        background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%)
+    }
+
+    40% {
+        background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%)
+    }
+
+    50% {
+        background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%)
+    }
+
+    60% {
+        background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%)
+    }
+
+    70% {
+        background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%)
+    }
+
+    80% {
+        background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%)
+    }
+
+    90% {
+        background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%)
+    }
+
+    100% {
+        background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%)
+    }
+}
+
+  .popup.buttons-popup {
+    width: 60%; /* Adjust the width to your desired size */
+    max-width: 400px; /* Set a maximum width if needed */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .popup.buttons-popup button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .popup.buttons-popup button:hover {
+    background-color: #3498db; /* Change the color on hover if desired */
+    color: #fff;
+  }
+  
+  .popup.buttons-popup button:last-child {
+    margin-bottom: 0; /* Remove margin from the last button */
   }
 
   .popup_img{
@@ -57,4 +146,29 @@ body {
     font-size: 20px;
     color: #333;
     cursor: pointer;
+  }
+
+  .popup.buttons-popup {
+    width: 60%; /* Adjust the width to your desired size */
+    max-width: 400px; /* Set a maximum width if needed */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .popup.buttons-popup button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .popup.buttons-popup button:hover {
+    background-color: #3498db; /* Change the color on hover if desired */
+    color: #fff;
+  }
+  
+  .popup.buttons-popup button:last-child {
+    margin-bottom: 0; /* Remove margin from the last button */
   }
