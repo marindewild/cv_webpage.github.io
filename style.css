@@ -65,6 +65,7 @@ body {
     margin: 10px 0;
     font-size: 16px;
     cursor: pointer;
+    background: linear-gradient(to right, #1488cc, #2b32b2);
   }
   
   .popup.buttons-popup button:hover {
@@ -76,12 +77,21 @@ body {
     margin-bottom: 0; /* Remove margin from the last button */
   }
 
+  .button-text {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+  }
+
   .popup_img{
     margin: auto;
     display: block;
     width: 80%;
     max-width: 700px;
   }
+
+  
   
   .popup p {
     margin: 0;
