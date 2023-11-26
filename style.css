@@ -44,7 +44,6 @@ body {
 
   .text{
     font-size: 2rem;
-    text-transform: capitalize;
     font-weight: bold;
     text-shadow:
     1px 1px 1px blue,
